@@ -4,7 +4,10 @@ import { motion } from "motion/react";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-maroon-50 dark:bg-maroon-900">
+    <section
+      id="about"
+      className="overflow-hidden py-20 bg-maroon-50 dark:bg-maroon-900"
+    >
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -26,7 +29,7 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, ease: [0.6, 0.05, 0.01, 0.9] }}
           >
-            <h2 className="text-4xl md:text-5xl font-bold text-maroon-900 dark:text-maroon-100 mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold text-maroon-800 dark:text-maroon-100 mb-6">
               Crafted with Purpose
             </h2>
             <p className="text-lg text-maroon-700 dark:text-maroon-300 mb-6">

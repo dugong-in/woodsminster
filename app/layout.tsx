@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${montserratAlternates.className} ${geistMono.variable} antialiased`}
+        className={`${montserratAlternates.className} ${geistMono.variable} antialiased transition-colors duration-500 theme-transition`}
       >
         <Providers>
           <Header />

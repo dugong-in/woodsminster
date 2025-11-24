@@ -53,7 +53,7 @@ export default function Products() {
     <section id="products" className="py-20 bg-white dark:bg-maroon-950">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-maroon-900 dark:text-maroon-100 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-maroon-800 dark:text-maroon-100 mb-4">
             Our Collection
           </h2>
           <p className="text-xl text-maroon-700 dark:text-maroon-300 max-w-2xl mx-auto">
@@ -94,7 +94,7 @@ export default function Products() {
                   <p className="text-sm text-maroon-600 dark:text-maroon-400 mb-1">
                     {product.category}
                   </p>
-                  <h3 className="text-xl font-semibold text-maroon-900 dark:text-maroon-100">
+                  <h3 className="text-xl font-semibold text-maroon-800 dark:text-maroon-100">
                     {product.name}
                   </h3>
                 </div>

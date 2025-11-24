@@ -5,8 +5,8 @@ import { motion } from "motion/react";
 export default function AboutPage() {
   return (
     <>
-      <main className="pt-24 min-h-screen">
-        <section className="py-12 md:py-20 bg-gradient-to-br from-maroon-50 to-white dark:from-maroon-950 dark:to-maroon-900">
+      <main className="pt-18 min-h-screen">
+        <section className="py-12 md:py-24 bg-gradient-to-br from-maroon-50 to-white dark:from-maroon-950 dark:to-maroon-900">
           <div className="container mx-auto px-4 sm:px-6">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -14,7 +14,7 @@ export default function AboutPage() {
               transition={{ duration: 0.6 }}
               className="text-center mb-16"
             >
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-maroon-900 dark:text-maroon-100 mb-4">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-maroon-800 dark:text-maroon-100 mb-4">
                 About WoodsMinster
               </h1>
               <p className="text-lg md:text-xl text-maroon-700 dark:text-maroon-300 max-w-2xl mx-auto">
@@ -42,7 +42,7 @@ export default function AboutPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
               >
-                <h2 className="text-2xl md:text-3xl font-bold text-maroon-900 dark:text-maroon-100 mb-4">
+                <h2 className="text-2xl md:text-3xl font-bold text-maroon-800 dark:text-maroon-100 mb-4">
                   Our Story
                 </h2>
                 <p className="text-maroon-700 dark:text-maroon-300 mb-4">
@@ -52,7 +52,7 @@ export default function AboutPage() {
                   three craftsmen and a passion for woodworking.
                 </p>
                 <p className="text-maroon-700 dark:text-maroon-300">
-                  Today, we've grown into a trusted name in minimal design
+                  Today, we&apos;ve grown into a trusted name in minimal design
                   furniture, serving thousands of customers while maintaining
                   our commitment to quality, sustainability, and economical
                   pricing.
@@ -91,7 +91,7 @@ export default function AboutPage() {
                     alt={item.title}
                     className="w-full h-48 object-cover rounded-2xl mb-4"
                   />
-                  <h3 className="text-lg md:text-xl font-semibold text-maroon-900 dark:text-maroon-100 mb-2">
+                  <h3 className="text-lg md:text-xl font-semibold text-maroon-800 dark:text-maroon-100 mb-2">
                     {item.title}
                   </h3>
                   <p className="text-maroon-700 dark:text-maroon-300">

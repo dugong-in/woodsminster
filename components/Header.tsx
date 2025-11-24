@@ -9,7 +9,7 @@ export default function Header() {
   const { isDark, toggleTheme } = useTheme();
 
   return (
-    <header className="fixed w-full bg-white/95 dark:bg-maroon-950/95 backdrop-blur-sm z-50 border-b border-maroon-100 dark:border-maroon-800">
+    <header className="fixed w-full bg-maroon-50/95 dark:bg-maroon-950/95 backdrop-blur-sm z-50 border-b border-maroon-100 dark:border-maroon-800">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link
@@ -22,19 +22,19 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-8">
             <Link
               href="/products"
-              className="text-maroon-700 dark:text-maroon-300 hover:text-maroon-900 dark:hover:text-maroon-100 transition"
+              className="text-maroon-700 dark:text-maroon-300 hover:text-maroon-800 dark:hover:text-maroon-100 transition"
             >
               Products
             </Link>
             <Link
               href="/about"
-              className="text-maroon-700 dark:text-maroon-300 hover:text-maroon-900 dark:hover:text-maroon-100 transition"
+              className="text-maroon-700 dark:text-maroon-300 hover:text-maroon-800 dark:hover:text-maroon-100 transition"
             >
               About
             </Link>
             <Link
               href="/contact"
-              className="text-maroon-700 dark:text-maroon-300 hover:text-maroon-900 dark:hover:text-maroon-100 transition"
+              className="text-maroon-700 dark:text-maroon-300 hover:text-maroon-800 dark:hover:text-maroon-100 transition"
             >
               Contact
             </Link>
@@ -46,7 +46,7 @@ export default function Header() {
             </button>
             <Link
               href="/products"
-              className="bg-maroon-800 text-white px-6 py-2 rounded-full hover:bg-maroon-900 hover:scale-105 transition-all"
+              className="bg-maroon-800 text-white px-6 py-2 rounded-full hover:bg-maroon-800 hover:scale-105 transition-all"
             >
               Shop Now
             </Link>
@@ -87,18 +87,21 @@ export default function Header() {
             <Link
               href="/products"
               className="text-maroon-700 dark:text-maroon-300"
+              onClick={() => setIsOpen(false)}
             >
               Products
             </Link>
             <Link
               href="/about"
               className="text-maroon-700 dark:text-maroon-300"
+              onClick={() => setIsOpen(false)}
             >
               About
             </Link>
             <Link
               href="/contact"
               className="text-maroon-700 dark:text-maroon-300"
+              onClick={() => setIsOpen(false)}
             >
               Contact
             </Link>

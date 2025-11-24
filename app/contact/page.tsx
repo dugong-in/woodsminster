@@ -13,7 +13,7 @@ export default function ContactPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-maroon-900 dark:text-maroon-100 mb-4">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-maroon-800 dark:text-maroon-100 mb-4">
               Contact Us
             </h1>
             <p className="text-lg md:text-xl text-maroon-700 dark:text-maroon-300">
@@ -27,7 +27,7 @@ export default function ContactPage() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2, duration: 0.6 }}
             >
-              <h2 className="text-xl md:text-2xl font-bold text-maroon-900 dark:text-maroon-100 mb-6">
+              <h2 className="text-xl md:text-2xl font-bold text-maroon-800 dark:text-maroon-100 mb-6">
                 Get in Touch
               </h2>
               <form className="space-y-4">
@@ -73,7 +73,7 @@ export default function ContactPage() {
               className="space-y-8"
             >
               <div>
-                <h3 className="text-lg md:text-xl font-semibold text-maroon-900 dark:text-maroon-100 mb-4">
+                <h3 className="text-lg md:text-xl font-semibold text-maroon-800 dark:text-maroon-100 mb-4">
                   Corporate Office
                 </h3>
                 <p className="text-maroon-700 dark:text-maroon-300 mb-1">
@@ -86,7 +86,7 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <h3 className="text-lg md:text-xl font-semibold text-maroon-900 dark:text-maroon-100 mb-4">
+                <h3 className="text-lg md:text-xl font-semibold text-maroon-800 dark:text-maroon-100 mb-4">
                   Contact Information
                 </h3>
                 <p className="text-maroon-700 dark:text-maroon-300 mb-2">
@@ -101,7 +101,7 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <h3 className="text-lg md:text-xl font-semibold text-maroon-900 dark:text-maroon-100 mb-4">
+                <h3 className="text-lg md:text-xl font-semibold text-maroon-800 dark:text-maroon-100 mb-4">
                   Follow Us
                 </h3>
                 <div className="flex flex-wrap gap-3 md:gap-4">
@@ -110,7 +110,7 @@ export default function ContactPage() {
                       key={social}
                       href="#"
                       className="px-4 sm:px-6 py-2 border-2 border-maroon-800 dark:border-maroon-300 text-maroon-800 dark:text-maroon-300 rounded-full text-sm sm:text-base"
-                      whileHover={{ scale: 1.05, backgroundColor: "#faf5f5" }}
+                      whileHover={{ scale: 1.05 }}
                     >
                       {social}
                     </motion.a>
