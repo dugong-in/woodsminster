@@ -12,11 +12,16 @@ export default function Header() {
     <header className="fixed w-full bg-maroon-50/95 dark:bg-maroon-950/95 backdrop-blur-sm z-50 border-b border-maroon-100 dark:border-maroon-800">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <Link
-            href="/"
-            className="text-2xl font-black text-maroon-800 dark:text-maroon-200"
-          >
-            WoodsMinster
+          <Link href="/" className="flex items-center gap-2 group">
+            <div className="relative w-10 h-10 bg-gradient-to-br from-maroon-700 to-maroon-900 dark:from-maroon-600 dark:to-maroon-800 rounded-lg flex items-center justify-center shadow-md group-hover:shadow-lg transition-all">
+              <svg viewBox="0 0 24 24" className="w-6 h-6 text-maroon-50" fill="currentColor">
+                <path d="M12 2L4 6v6c0 5.5 3.8 10.7 8 12 4.2-1.3 8-6.5 8-12V6l-8-4zm0 2.2l6 3v5.3c0 4.5-3.1 8.8-6 10.2-2.9-1.4-6-5.7-6-10.2V7.2l6-3z" opacity="0.3"/>
+                <path d="M8 10h2v8H8zm3-2h2v10h-2zm3 4h2v6h-2z"/>
+              </svg>
+            </div>
+            <span className="text-xl font-light tracking-wide text-maroon-800 dark:text-maroon-100">
+              Woods<span className="font-semibold">Minster</span>
+            </span>
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
