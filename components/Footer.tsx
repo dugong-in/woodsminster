@@ -20,7 +20,7 @@ export default function Footer() {
                 <path d="M8 10h2v8H8zm3-2h2v10h-2zm3 4h2v6h-2z" />
               </svg>
             </div>
-            <p className="text-xl font-light tracking-wide text-maroon-800 dark:text-maroon-100 mt-1">
+            <p className="text-xl font-light tracking-wide text-maroon-100 dark:text-maroon-200 mt-1">
               Woods<span className="font-semibold">Minster</span>
             </p>
             <p className="text-maroon-300">
