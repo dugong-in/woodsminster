@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-maroon-100 to-white dark:from-maroon-950 dark:to-maroon-900 pt-20">
       <div className="container mx-auto px-6 py-20">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -56,7 +56,7 @@ export default function Hero() {
             </motion.div>
           </motion.div>
           <motion.div
-            className="relative h-[500px] rounded-3xl overflow-hidden"
+            className="relative h-[300px] md:h-[500px] rounded-3xl overflow-hidden"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: [0.6, 0.05, 0.01, 0.9] }}
